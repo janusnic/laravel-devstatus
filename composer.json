@@ -9,7 +9,7 @@
           "email": "janusnic@gmail.com"
       }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "0.1",
   "require": {
      
   },
