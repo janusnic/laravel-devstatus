@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('devstatus', 'Busayo\DevStatus\DevStatusController@home');
-Route::get('devstatus/{username}', 'Busayo\DevStatus\DevStatusController@index');
+Route::get('devstatus', 'Janusnic\DevStatus\DevStatusController@home');
+Route::get('devstatus/{username}', 'Janusnic\DevStatus\DevStatusController@index');
 
 Route::get('/test', function(){
     echo Test::doIt();

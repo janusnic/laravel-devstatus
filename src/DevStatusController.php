@@ -1,4 +1,4 @@
-<?php namespace Busayo\DevStatus;
+<?php namespace Janusnic\DevStatus;
 use App\Http\Controllers\Controller;
 use App\User;
 

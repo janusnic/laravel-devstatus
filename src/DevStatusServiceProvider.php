@@ -1,4 +1,4 @@
-<?php namespace Busayo\DevStatus;
+<?php namespace Janusnic\DevStatus;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -26,7 +26,7 @@ class DevStatusServiceProvider extends ServiceProvider {
 		include __DIR__.'/routes.php';
 
 		// Let Laravel Ioc Container know about our Controller
-		$this->app->make('Busayo\DevStatus\DevStatusController');
+		$this->app->make('Janusnic\DevStatus\DevStatusController');
 	}
 
 }
